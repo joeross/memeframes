@@ -3,30 +3,54 @@
 <head>
 <title>Techmeme and friends, all together</title>
 <style>
-body { background-color: #F3F3F3; color:gray; font-size:small; text-align:center }
+body {
+  background-color: #F3F3F3;
+  color:gray;
+  font-size:small;
+  text-align:center;
+font-family: Futura, Helvetica, Arial, sans serif;  }
+
+#container {
+
+  width: 100%; height: 97%;"
+}
+
+#center {
+
+  display:block;
+  margin:auto;
+}
+
+iframe {
+  width:19%;
+  height:89%;
+}
+
+footer {
+
+  margin-top:5px;
+  color:gray;
+}
+
+footer a {
+
+  color:gray;
+}
 </style>
 </head>
 
 <body>
-<div style="width: 100%; height: 97%;"><div align="center">
-<iframe src="http://www.techmeme.com/m" width="19%" height="89%" >
+<div class="container" ><div class="center">
+<iframe src="http://www.techmeme.com/m"  >
   <p>Your browser does not support iframes. Womp womp.</p></iframe>
-  <iframe src="http://www.mediagazer.com/m" width="19%" height="89%"></iframe>
-  <iframe src="http://www.memeorandum.com/m" width="19%" height="89%" ></iframe>
-  <iframe src="http://www.wesmirch.com/m" width="19%" height="89%" ></iframe>
-  <iframe src="http://www.ballbug.com/m" width="19%" height="89%" ></iframe>
+  <iframe src="http://www.mediagazer.com/m"></iframe>
+  <iframe src="http://www.memeorandum.com/m"></iframe>
+  <iframe src="http://www.wesmirch.com/m"></iframe>
+  <iframe src="http://www.ballbug.com/m"></iframe>
   </div>
   <hr />
-  <div style="margin-top:5px;">memeframes: techmeme and friends, all together&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://twitter.com/joeross" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @joeross</a>
-
-<!-- A Twitter follow button, get one of your own here: https://support.twitter.com/articles/20164833-adding-a-follow-button-to-your-website -->
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="http://joeross.me" style="color: gray; text-decoration:none; border-bottom: 1px solid #333333;">joeross.me</a>&nbsp;&nbsp;|
-&nbsp;&nbsp;not affiliated with techmeme</span>
-</div>
+  <footer>memeframes is made by <a href="https://twitter.com/joeross">@joeross</a>| <a href="http://joeross.me">joeross.me</a> | public domain and open source | <a href="https://github.com/joeross/memeframes">fork me</a> | not affiliated with techmeme</span>
+</footer>
 </div>
 </body>
 </html>
