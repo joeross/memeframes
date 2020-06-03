@@ -14,4 +14,4 @@ It seems messy to use iframes but they give the hit to the pages displayed.
 
 It uses the mobile versions for optimal display density. 
 
-Designed & hosted by <a href="http://advertisingbros.com/">Advertising Brothers</a>
+Designed & hosted by <a href="https://joeross.me">joe ross</a>
